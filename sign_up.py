@@ -7,6 +7,8 @@ file=open(username + ".txt", mode='w',)
 for key in hasil:
     user=key
     password=hasil[key]
-    print(f"Email: {user} password: {password}", file=file)
+    print(f"username: {username}", file=file)
+    print(f"Email: {user}", file=file)
+    print(f"password: {password}", file=file)
 file.close()
 print("Your account has been added!")
